@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="UI/UX portfolio: mobile responsive, camel-inspired theme, projects, skills, and contact." />
+  <title>UI/UX Portfolio</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">UI/UX</span>
+      </a>
+
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">
+        <span class="menu-btn__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#projects">Projects</a>
+        <a class="nav__link" href="#experience">Services</a>
+        <a class="nav__link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="Introduction">
+      <div class="container hero__grid">
+        <div class="hero__content" data-animate>
+          <p class="eyebrow" data-animate>UI/UX Designer • ~1 year of hands-on work</p>
+          <h1 class="hero__title" data-animate>
+            I design clean, user-friendly interfaces that feel effortless on mobile.
+          </h1>
+          <p class="hero__subtitle" data-animate>
+            My focus is turning messy ideas into clear flows—wireframes, prototypes, and polished UI—so users can complete tasks fast and with confidence.
+          </p>
+
+          <div class="hero__cta" data-animate>
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact">Let’s Talk</a>
+          </div>
+
+          <ul class="hero__highlights" aria-label="Quick highlights" data-animate>
+            <li>
+              <span class="dot" aria-hidden="true"></span>
+              User flows + UX writing
+            </li>
+            <li>
+              <span class="dot" aria-hidden="true"></span>
+              Responsive UI systems
+            </li>
+            <li>
+              <span class="dot" aria-hidden="true"></span>
+              Prototypes that are actually clickable
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="hero__card" role="region" aria-label="Designer card">
+          <div class="hero__cardTop">
+            <div class="avatar" aria-hidden="true">
+              <span class="avatar__inner">UX</span>
+            </div>
+            <div>
+              <h2 class="hero__cardTitle">Name Here</h2>
+              <p class="hero__cardMeta">UI/UX Designer • Based in Your City</p>
+            </div>
+          </div>
+
+          <div class="statrow" aria-label="Stats">
+            <div class="stat">
+              <div class="stat__value">12+</div>
+              <div class="stat__label">Screens designed</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">4</div>
+              <div class="stat__label">Product cases</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value">1</div>
+              <div class="stat__label">Design loop mindset</div>
+            </div>
+          </div>
+
+          <div class="chips" aria-label="Tools">
+            <span class="chip">Figma</span>
+            <span class="chip">Prototyping</span>
+            <span class="chip">Wireframes</span>
+            <span class="chip">Design systems</span>
+          </div>
+
+          <p class="hero__cardNote">
+            I’m currently improving my process with better research habits, clearer handoffs, and stronger UI consistency.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">About</h2>
+          <p class="section__subtitle">A quick look at how I think and how I work.</p>
+        </div>
+
+        <div class="aboutGrid">
+          <div class="panel">
+            <h3 class="panel__title">How I approach a design</h3>
+            <ol class="steps">
+              <li>
+                <strong>Understand</strong> the user goal (and the real problem).
+              </li>
+              <li>
+                <strong>Map</strong> the flow with wireframes and UX structure.
+              </li>
+              <li>
+                <strong>Prototype</strong> quickly so we can test ideas earlier.
+              </li>
+              <li>
+                <strong>Polish</strong> the UI with spacing, typography, and components.
+              </li>
+            </ol>
+          </div>
+
+          <div class="panel panel--highlight">
+            <h3 class="panel__title">What “good UI” means to me</h3>
+            <ul class="bullets">
+              <li>Readable typography and consistent spacing.</li>
+              <li>Clear hierarchy so users know what to do next.</li>
+              <li>Microcopy and labels that reduce confusion.</li>
+              <li>Layouts that stay clean on small screens.</li>
+            </ul>
+            <div class="inlineCtas">
+              <a class="linkBtn" href="#skills">See skills</a>
+              <a class="linkBtn" href="#contact">Request portfolio PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Skills</h2>
+          <p class="section__subtitle">The tools and UX areas I use most often.</p>
+        </div>
+
+        <div class="skillsGrid" role="list">
+          <div class="skill" role="listitem">
+            <div class="skill__top">
+              <span class="skill__icon" aria-hidden="true">◎</span>
+              <h3 class="skill__title">Wireframing</h3>
+            </div>
+            <p class="skill__desc">From rough layouts to clear screen structure.</p>
+          </div>
+          <div class="skill" role="listitem">
+            <div class="skill__top">
+              <span class="skill__icon" aria-hidden="true">↗</span>
+              <h3 class="skill__title">Prototyping</h3>
+            </div>
+            <p class="skill__desc">Clickable flows so stakeholders can actually feel the UX.</p>
+          </div>
+          <div class="skill" role="listitem">
+            <div class="skill__top">
+              <span class="skill__icon" aria-hidden="true">⌁</span>
+              <h3 class="skill__title">UI Design</h3>
+            </div>
+            <p class="skill__desc">Typography, spacing, and component-based design.</p>
+          </div>
+          <div class="skill" role="listitem">
+            <div class="skill__top">
+              <span class="skill__icon" aria-hidden="true">⟡</span>
+              <h3 class="skill__title">Design Systems</h3>
+            </div>
+            <p class="skill__desc">Reusable styles and consistent interaction patterns.</p>
+          </div>
+          <div class="skill" role="listitem">
+            <div class="skill__top">
+              <span class="skill__icon" aria-hidden="true">✎</span>
+              <h3 class="skill__title">UX Writing</h3>
+            </div>
+            <p class="skill__desc">Labels, buttons, and microcopy that guide users.</p>
+          </div>
+          <div class="skill" role="listitem">
+            <div class="skill__top">
+              <span class="skill__icon" aria-hidden="true">▦</span>
+              <h3 class="skill__title">Responsive Layout</h3>
+            </div>
+            <p class="skill__desc">Mobile-first thinking with clean breakpoints.</p>
+          </div>
+        </div>
+
+        <div class="skillTags" aria-label="Skill tags">
+          <span class="tag">Figma</span>
+          <span class="tag">User Flows</span>
+          <span class="tag">Information Architecture</span>
+          <span class="tag">Component Library</span>
+          <span class="tag">Interaction Design</span>
+          <span class="tag">Usability mindset</span>
+          <span class="tag">Handoff</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Projects</h2>
+          <p class="section__subtitle">Short cases I can talk through end-to-end.</p>
+        </div>
+
+        <div class="projectsGrid">
+          <article class="project">
+            <div class="project__badge">Case Study</div>
+            <h3 class="project__title">Mobile E-commerce Checkout Redesign</h3>
+            <p class="project__desc">Improved clarity, reduced friction, and made the checkout feel faster on small screens.</p>
+            <ul class="project__list">
+              <li>Problem: too many steps + unclear field labels.</li>
+              <li>Work: flow mapping, wireframes, UI kit, prototype.</li>
+              <li>Outcome: cleaner hierarchy and easier form completion.</li>
+            </ul>
+            <div class="project__cta">
+              <span class="miniPill">Wireframes</span>
+              <span class="miniPill">Prototype</span>
+              <span class="miniPill">UI components</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__badge project__badge--alt">App UI</div>
+            <h3 class="project__title">Food Delivery: Browse → Order Flow</h3>
+            <p class="project__desc">Designed a smoother journey from searching to placing an order with better navigation and feedback.</p>
+            <ul class="project__list">
+              <li>Problem: users got lost in categories.</li>
+              <li>Work: information architecture + responsive layout.</li>
+              <li>Outcome: clearer filters and more predictable steps.</li>
+            </ul>
+            <div class="project__cta">
+              <span class="miniPill">UX structure</span>
+              <span class="miniPill">Responsive UI</span>
+              <span class="miniPill">UX writing</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__badge">Website</div>
+            <h3 class="project__title">Portfolio Template for Personal Brands</h3>
+            <p class="project__desc">Created a flexible layout system that looks great on mobile and stays consistent across pages.</p>
+            <ul class="project__list">
+              <li>Problem: inconsistent typography and spacing across sections.</li>
+              <li>Work: UI system, components, and styling rules.</li>
+              <li>Outcome: reusable sections with a clean design language.</li>
+            </ul>
+            <div class="project__cta">
+              <span class="miniPill">Design system</span>
+              <span class="miniPill">Typography</span>
+              <span class="miniPill">Handoff</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="projectsFooter">
+          <p class="muted">Want the full walkthrough of any case study? I can share a PDF/slide version on request.</p>
+          <a class="btn btn--ghost" href="#contact">Request walkthrough</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section--alt2">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Services</h2>
+          <p class="section__subtitle">What I can help with during a project or sprint.</p>
+        </div>
+
+        <div class="servicesGrid">
+          <div class="service">
+            <h3 class="service__title">UX Flow + Wireframes</h3>
+            <p class="service__desc">User journeys, screen breakdown, and structured wireframes to align early.</p>
+            <div class="service__footer">Best for: redesigns & MVP planning</div>
+          </div>
+
+          <div class="service">
+            <h3 class="service__title">UI Design + Components</h3>
+            <p class="service__desc">Clean interface design with consistent spacing, typography, and reusable components.</p>
+            <div class="service__footer">Best for: product UI & handoff</div>
+          </div>
+
+          <div class="service">
+            <h3 class="service__title">Clickable Prototypes</h3>
+            <p class="service__desc">Interactive prototypes for testing, demos, and stakeholder reviews.</p>
+            <div class="service__footer">Best for: validation and iteration</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Contact</h2>
+          <p class="section__subtitle">Let’s build something simple, usable, and beautiful.</p>
+        </div>
+
+        <div class="contactGrid">
+          <div class="panel panel--contact">
+            <h3 class="panel__title">Send a message</h3>
+            <form class="form" onsubmit="event.preventDefault(); showToast();" aria-label="Contact form">
+              <label class="field">
+                <span class="field__label">Your name</span>
+                <input class="field__input" type="text" name="name" required placeholder="e.g., Ali" />
+              </label>
+
+              <label class="field">
+                <span class="field__label">Email</span>
+                <input class="field__input" type="email" name="email" required placeholder="e.g., ali@email.com" />
+              </label>
+
+              <label class="field">
+                <span class="field__label">What do you need?</span>
+                <textarea class="field__input field__textarea" name="message" required rows="5" placeholder="Tell me about the project..."></textarea>
+              </label>
+
+              <button class="btn btn--primary btn--full" type="submit">Send message</button>
+              <p class="form__hint">This form is a front-end demo. You can connect it to email later.</p>
+            </form>
+          </div>
+
+          <div class="contactAside">
+            <div class="infoCard">
+              <div class="infoRow">
+                <span class="infoIcon" aria-hidden="true">✦</span>
+                <div>
+                  <div class="infoLabel">Email</div>
+                  <div class="infoValue">yourname@email.com</div>
+                </div>
+              </div>
+              <div class="infoRow">
+                <span class="infoIcon" aria-hidden="true">⌁</span>
+                <div>
+                  <div class="infoLabel">Location</div>
+                  <div class="infoValue">Your City, Remote</div>
+                </div>
+              </div>
+              <div class="infoRow">
+                <span class="infoIcon" aria-hidden="true">↗</span>
+                <div>
+                  <div class="infoLabel">Availability</div>
+                  <div class="infoValue">Open for freelance / internships</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="socials">
+              <a class="social" href="#" aria-label="Dribbble (placeholder)">Dribbble</a>
+              <a class="social" href="#" aria-label="Behance (placeholder)">Behance</a>
+              <a class="social" href="#" aria-label="LinkedIn (placeholder)">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">
+        Message saved locally ✅
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__left">© <span id="year"></span> Your Name. All rights reserved.</p>
+      <div class="footer__right">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#projects">Projects</a>
+        <a class="footer__link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    yearEl.textContent = new Date().getFullYear();
+
+    // Mobile menu
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.getElementById('site-nav');
+
+    function setExpanded(expanded) {
+      menuBtn.setAttribute('aria-expanded', String(expanded));
+      nav.classList.toggle('nav--open', expanded);
+    }
+
+    menuBtn.addEventListener('click', () => {
+      const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+      setExpanded(!expanded);
+    });
+
+    nav.addEventListener('click', (e) => {
+      const link = e.target.closest('a');
+      if (!link) return;
+      setExpanded(false);
+    });
+
+    // Toast
+    function showToast() {
+      const toast = document.getElementById('toast');
+      toast.classList.add('toast--show');
+      setTimeout(() => toast.classList.remove('toast--show'), 2200);
+    }
+
+    // GSAP sliding animations (uses CDN)
+    window.addEventListener('DOMContentLoaded', () => {
+      const tryInit = async () => {
+        // If GSAP already exists, just run.
+        if (window.gsap && window.ScrollTrigger) {
+          initAnimations();
+          return;
+        }
+
+        // Load GSAP + ScrollTrigger
+        const gsapScript = document.createElement('script');
+        gsapScript.src = 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js';
+        gsapScript.async = true;
+
+        const stScript = document.createElement('script');
+        stScript.src = 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js';
+        stScript.async = true;
+
+        document.head.appendChild(gsapScript);
+        document.head.appendChild(stScript);
+
+        // Wait a bit for load
+        setTimeout(() => {
+          if (window.gsap && window.ScrollTrigger) initAnimations();
+        }, 600);
+      };
+
+      const initAnimations = () => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Animate elements with data-animate attribute
+        document.querySelectorAll('[data-animate]').forEach((el, idx) => {
+          el.style.willChange = 'transform, opacity';
+          gsap.fromTo(
+            el,
+            { opacity: 0, y: 30, x: 0 },
+            {
+              opacity: 1,
+              y: 0,
+              duration: 0.8,
+              ease: 'power3.out',
+              scrollTrigger: {
+                trigger: el,
+                start: 'top 85%',
+                end: 'top 35%',
+                scrub: false,
+                toggleActions: 'play none none reverse'
+              }
+            }
+          );
+        });
+
+        // Hero headline split-ish slide (single element)
+        const heroTitle = document.querySelector('.hero__title');
+        if (heroTitle) {
+          gsap.fromTo(
+            heroTitle,
+            { opacity: 0, y: 28 },
+            {
+              opacity: 1,
+              y: 0,
+              duration: 0.9,
+              delay: 0.15,
+              ease: 'power3.out'
+            }
+          );
+        }
+      };
+
+      tryInit();
+    });
+  </script>
+</body>
+</html>
+
+
